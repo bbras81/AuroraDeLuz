@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav{
+    width: 100vw;
+    background-color: aqua;
+}
+
+nav > img{
+    padding: 20px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
