@@ -23,4 +23,5 @@ nav > img{
     padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
+    max-width: fit-content;
 }
