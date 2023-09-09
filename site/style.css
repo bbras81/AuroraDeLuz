@@ -3,13 +3,24 @@
     padding: 0px;
 }
 
+:root{
+    --cor00:#D099D4;
+    --cor001:#FCD1FF;
+    --cor002:#845487;
+    --cor003:#628746;
+    --cor004:#B2D498;
+}
+
+
+
+
 nav{
     width: 100vw;
-    background-color: aqua;
+    background-color: var(--cor001);
 }
 
 nav > img{
-    padding: 20px;
+    padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
 }
