@@ -11,7 +11,9 @@
     --cor004:#B2D498;
 }
 
-
+body{
+    width: 100vw;
+}
 
 
 nav{
@@ -25,3 +27,4 @@ nav > img{
     transform: translateX(-50%);
     max-width: 70vw;
 }
+
