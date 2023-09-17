@@ -9,6 +9,7 @@
     --cor002:#845487;
     --cor003:#628746;
     --cor004:#B2D498;
+    ---cor005:rgb(116, 114, 114);
 }
 
 body{
@@ -21,7 +22,7 @@ nav{
     background-color: var(--cor001);
 }
 
-nav > img{
+nav > a > img{
     padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
@@ -35,11 +36,20 @@ nav > div{
 
 
 .material-symbols-outlined{
-    
+    color: var(---cor005);
     margin-left: 50%;
     transform: translateX(-50%);
+    cursor: pointer;
+    text-shadow: 1px .5px rgba(0, 0, 0, 0.308) ;
+    font-size: 1.5em;
 }
 
-.material-symbols-outlined :hover{
-    
+
+ul > li{
+    text-align: center;
+    color:var(---cor005);
+}
+
+ul > li > a{
+    text-decoration: none;
 }
