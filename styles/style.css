@@ -29,7 +29,7 @@ header > a > img{
     padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
-    min-width: 30vw;
+    width: 400px;
     max-width: 45vw;
 }
 
