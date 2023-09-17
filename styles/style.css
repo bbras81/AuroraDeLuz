@@ -12,7 +12,7 @@
     --cor005:rgb(116, 114, 114);
 }
 
-body{
+header, body{
     width: 100vw;
 }
 
