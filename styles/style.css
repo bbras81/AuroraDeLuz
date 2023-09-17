@@ -27,3 +27,19 @@ nav > img{
     transform: translateX(-50%);
     max-width: 70vw;
 }
+
+nav > div{
+
+}
+
+
+
+.material-symbols-outlined{
+    
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.material-symbols-outlined :hover{
+    
+}
