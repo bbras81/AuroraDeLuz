@@ -23,7 +23,7 @@ header{
 #logo{
     display: block;
     margin: auto;
-    width: 85%;
+    width: 90%;
 }
 
 #burger{
@@ -31,4 +31,19 @@ header{
     margin: auto;
     cursor: pointer;
 }
+/*---------- DROP-MENU CONFIGURATION --------- */
 
+#menuDrop{
+    display: none;
+    background-color: var(--cor001);
+    width: 50%;
+}
+#menuDrop > ul > li{
+    padding: 20px;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
