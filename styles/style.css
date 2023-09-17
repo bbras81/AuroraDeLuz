@@ -29,6 +29,7 @@ header{
     width: 20vw;
     margin-left: 50%;
     transform: translateX(-50%);
+    max-width: 40vw;
 
 }
 #logo > a > p{
