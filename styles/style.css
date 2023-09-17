@@ -34,7 +34,6 @@ nav > div{
 }
 
 
-
 .material-symbols-outlined{
     color: var(---cor005);
     margin-left: 50%;
@@ -42,6 +41,10 @@ nav > div{
     cursor: pointer;
     text-shadow: 1px .5px rgba(0, 0, 0, 0.308) ;
     font-size: 1.5em;
+}
+
+#menu{
+    display: none;
 }
 
 
