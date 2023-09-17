@@ -23,7 +23,7 @@ header{
 #logo{
     display: block;
     margin: auto;
-    width: 75%;
+    width: 85%;
 }
 
 #burger{
@@ -32,18 +32,3 @@ header{
     cursor: pointer;
 }
 
-#listMenu > ul > li > a{
-    text-decoration: none;
-}
-
-#listMenu{
-    display: block;
-    margin: auto;
-}
-
-#menu{
-    margin-left: 50%;
-    transform: translateX(-9%);
-    display: none;
-    list-style-type: none;
-}
