@@ -27,6 +27,7 @@ header{
 }
 
 #burger{
+    font-size: 1.5em;
     display: block;
     margin: auto;
     cursor: pointer;
