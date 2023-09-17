@@ -30,6 +30,7 @@ header > a > img{
     margin-left: 50%;
     transform: translateX(-50%);
     width: 450px;
+    max-width: 600px;
 
 }
 
