@@ -22,10 +22,10 @@ header{
     display: block;
     width: 100vw;
     background-color: var(--cor001);
-}
 
 
-header > a > img{
+
+#image{
     padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
