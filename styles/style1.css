@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --cor00:#D099D4;
+    --cor001:#FCD1FF;
+    --cor002:#845487;
+    --cor003:#628746;
+    --cor004:#B2D498;
+    --cor005:rgb(116, 114, 114);
+}
+
+body header{
+    width: 100%;
+}
+/*---------- HEADER CONFIGURATION --------- */
+header{
+    background-color: var(--cor001);
+}
+
+#logo{
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+#burger{
+    display: block;
+    margin: auto;
+    cursor: pointer;
+}
+/*---------- DROP-MENU CONFIGURATION --------- */
+
+#menuDrop{
+    display: none;
+    background-color: var(--cor001);
+    width: 50%;
+}
+#menuDrop > ul > li{
+    padding: 20px;
+}
+
+a{
+    text-decoration: none;
+}
