@@ -24,7 +24,7 @@ header{
     padding: 10px;
     display: block;
     margin: auto;
-    width: 40%;
+    width: 35%;
 }
 
 #burger{
@@ -37,15 +37,25 @@ header{
 #menuDrop{
     display: none;
     background-color: var(--cor001);
-    width: 50%;
 }
 #menuDrop > ul > li{
     padding: 20px;
+    text-align: center;
+}
+
+#menuDrop > ul{
+    position: absolute;
+    background-color: #fcd1ffa7;
+    width: 50%;
+    
 }
 
 a{
     text-decoration: none;
+    color:#C4B5AF;
 }
 /*---------- MAIN --------- */
 
-
+.imagem{
+    width: 100vw;
+}
