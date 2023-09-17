@@ -29,8 +29,8 @@ header > a > img{
     padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
-    width: 400px;
-    max-width: 45vw;
+    width: 80%;
+
 }
 
 /*-------- HEADER MENU ----------*/
@@ -50,12 +50,13 @@ header > a > img{
 
 
 ul > li{
-    text-align: center;
+    text-align: center; 
     color:var(--cor005);
 }
 
 ul > li > a{
     text-decoration: none;
+    color: var(--cor005);
 }
 
 
