@@ -9,33 +9,49 @@
     --cor002:#845487;
     --cor003:#628746;
     --cor004:#B2D498;
-    ---cor005:rgb(116, 114, 114);
+    --cor005:rgb(116, 114, 114);
 }
 
 body{
     width: 100vw;
 }
 
+/*-------- HEADER LOGOTIPO ----------*/
 
-nav{
+header{
+    display: block;
     width: 100vw;
     background-color: var(--cor001);
 }
+#logo{
+    position: relative;
+    display: inline-block;
+    width: 20vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
 
-nav > a > img{
+}
+#logo > a > p{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -28%;
+    color:#f8ecfa ;
+    font-size: 2.1em;
+
+}
+
+
+header > a > img{
     padding: 20px 0px 0px 0px;
     margin-left: 50%;
     transform: translateX(-50%);
     max-width: 70vw;
 }
 
-nav > div{
-
-}
-
+/*-------- HEADER MENU ----------*/
 
 .material-symbols-outlined{
-    color: var(---cor005);
+    color: var(--cor005);
     margin-left: 50%;
     transform: translateX(-50%);
     cursor: pointer;
@@ -50,9 +66,16 @@ nav > div{
 
 ul > li{
     text-align: center;
-    color:var(---cor005);
+    color:var(--cor005);
 }
 
 ul > li > a{
     text-decoration: none;
 }
+
+
+
+
+/*
+border: 3px solid #73AD21;
+*/
