@@ -1,6 +1,7 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 :root{
@@ -17,7 +18,7 @@ body header{
 }
 /*---------- HEADER CONFIGURATION --------- */
 header{
-    background-color: var(--cor001);
+    background-color: white;
     position: sticky;
     top: 0;
     right: 0;
@@ -32,8 +33,10 @@ header{
 }
 
 #burger{
-    display: block;
-    margin: auto;
+    position: absolute;
+    display: inline-block;
+    bottom: 5px;
+    right: 10px;
     cursor: pointer;
 }
 /*---------- DROP-MENU CONFIGURATION --------- */
@@ -47,12 +50,13 @@ header{
     padding-bottom: 10px;
     text-align: center;
     border-bottom: 2px solid var(--cor005);
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 #menuDrop > ul{
+    right: 0px;
     position: absolute;
-    background-color: #fcd1ffdb;
+    background-color:rgba(255, 255, 255, 0.945);
     width: 50%;
     
 }
