@@ -77,4 +77,10 @@ main{
     background-color: var(--cor001);
 }
 
+/*---------- TEXT ----------*/
+.descrição > p{
+    padding: 10px;
+}
+
+
 /*---------- FOORTER ----------*/
