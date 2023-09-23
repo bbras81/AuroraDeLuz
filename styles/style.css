@@ -47,12 +47,12 @@ header{
     padding-bottom: 10px;
     text-align: center;
     border-bottom: 2px solid var(--cor005);
-    font-size: 1.1em;
+    font-size: 1.5em;
 }
 
 #menuDrop > ul{
     position: absolute;
-    background-color: #fcd1ffad;
+    background-color: #fcd1ffdb;
     width: 50%;
     
 }
