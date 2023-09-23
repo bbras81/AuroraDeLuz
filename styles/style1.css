@@ -18,9 +18,10 @@ body header{
 /*---------- HEADER CONFIGURATION --------- */
 header{
     background-color: var(--cor001);
-    position: fixed;
+    position: sticky;
     top: 0;
-    width: 100%;
+    right: 0;
+    left: 0;
 }
 
 #logo{
@@ -59,7 +60,7 @@ a{
 }
 /*---------- MAIN --------- */
 main{
-    padding-top: 190px;
+
 }
 
 .imagem-sec{
