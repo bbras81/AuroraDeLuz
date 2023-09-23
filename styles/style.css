@@ -84,3 +84,9 @@ main{
 
 
 /*---------- FOORTER ----------*/
+
+footer{
+    height: 50px;
+    background-color: var(--cor002);
+    text-align: center;
+}
