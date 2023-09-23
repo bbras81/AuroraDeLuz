@@ -57,6 +57,7 @@ header{
     right: 0px;
     position: absolute;
     background-color:rgba(255, 255, 255, 0.945);
+    list-style:none;    
     width: 50%;
     
 }
@@ -71,12 +72,11 @@ main{
 }
 
 .imagem-sec{
+    position: relative;
     background-color: var(--cor001);
 }
 
 .imagem{
-    background-size: cover;
-    background-attachment: fixed;
     width: 100vw;
 }
 
@@ -86,7 +86,11 @@ main{
 
 /*---------- TEXT ----------*/
 .descrição > p{
-    padding: 10px;
+    padding: 20px;
+}
+h1{
+    padding: 5px;
+    margin-left: 5px;
 }
 
 
@@ -96,4 +100,15 @@ footer{
     height: 50px;
     background-color: var(--cor002);
     text-align: center;
+}
+
+/*--------- BUTTONS----------*/
+
+.imagem-sec > button{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    right: 125px;
+    bottom: 100px;
+    border-radius: 50%;
 }
