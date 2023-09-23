@@ -43,8 +43,11 @@ header{
     background-color: var(--cor001);
 }
 #menuDrop > ul > li{
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 10px;
     text-align: center;
+    border-bottom: 2px solid var(--cor005);
+    font-size: 1.1em;
 }
 
 #menuDrop > ul{
