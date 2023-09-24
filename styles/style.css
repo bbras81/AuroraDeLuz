@@ -20,7 +20,7 @@ body header{
 }
 /*---------- HEADER CONFIGURATION --------- */
 header{
-    background-color: white;
+    background-image: linear-gradient(var(--cor00), var(--cor001));
     position: sticky;
     top: 0;
     right: 0;
@@ -31,10 +31,27 @@ header{
 
 #logo{
     padding: 10px;
+    display: none;
+    width: 157px;   
+}
+.lettering{
     display: block;
     margin: auto;
-    width: 157px;
+    padding: 5px;
 }
+.lettering > h1{
+    color: rgb(239, 239, 239);
+    text-shadow: 2px 2px rgba(56, 56, 56, 0.703);
+    font-size: 3em;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+.lettering > h2{
+    font-size: small;
+    text-align: center;
+}
+
+
 
 #burger{
     position: absolute;
