@@ -76,16 +76,17 @@ main{
 
 .imagem-cnt{
     width: 100vw;
-    height: 
-    background-size:auto;
+    padding-top: 200px;
+    padding-bottom: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 
     
 }
 
 #img1{
-    background-image:url('/static/Lettering-2.png');
-    background-position: right center;   
+    background-image:url('../static/Lettering-2.png');
 }
 
 .imagem{
@@ -126,5 +127,9 @@ footer{
 }
 .whatsappbtn:hover{
     cursor: pointer;
+}
+
+.imagem-cnt div{
+    margin-left: 260px;
 }
 
