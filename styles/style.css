@@ -40,11 +40,11 @@ header{
     padding: 5px;
 }
 .lettering > h1{
-    color: rgb(239, 239, 239);
+    color: rgb(232, 232, 232);
     text-shadow: 2px 2px rgba(56, 56, 56, 0.703);
-    font-size: 3em;
+    font-size: 2.7  em;
     text-align: center;
-    font-family: 'Poiret One', cursive;
+    font-family: 'Albertus Nova';
 }
 .lettering > h2{
     font-size: small;
