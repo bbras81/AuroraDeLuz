@@ -78,6 +78,8 @@ main{
 
 .imagem{
     width: 100vw;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .descrição{
