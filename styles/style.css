@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 *{
     padding: 0px;
     margin: 0px;
@@ -72,16 +74,22 @@ main{
 
 }
 
-.imagem-sec{
+.imagem-cnt{
+    width: 100vw;
+    height: 
+    background-size:auto;
+
+
+    
+}
+
+#img1{
+    background-image:url('/static/Lettering-2.png');
+    background-position: right center;   
 }
 
 .imagem{
     width: 100vw;
-    background-size: cover;
-    background-attachment: fixed;
-}
-
-.descrição{
 }
 
 /*---------- TEXT ----------*/
@@ -103,3 +111,20 @@ footer{
 }
 
 /*--------- BUTTONS----------*/
+.whatsappbtn > img{
+    margin-left: 10px;
+}
+
+.whatsappbtn{
+    display: inline-flex;
+    background-color: aqua;
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.whatsappbtn:hover{
+    cursor: pointer;
+}
+
