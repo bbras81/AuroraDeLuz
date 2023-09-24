@@ -103,6 +103,9 @@ main{
 /*---------- TEXT ----------*/
 .descrição > p{
     padding: 20px;
+    text-align: justify;
+    text-size-adjust: 10px;
+    text-indent: 20px;
 }
 h1{
     padding: 5px;
