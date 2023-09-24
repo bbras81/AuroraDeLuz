@@ -110,13 +110,18 @@ h1{
     padding: 5px;
     margin-left: 5px;
 }
+h2{
+    padding: 5px;
+}
 
 
 /*---------- FOORTER ----------*/
 
 footer{
-    height: 50px;
+    display: flex;
+    padding: 25px;
     background-color: var(--cor002);
-    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
  
