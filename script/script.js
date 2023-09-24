@@ -5,3 +5,7 @@ function menuPr(){
         menuDrop.style.display = 'block'
     }
 }
+
+function newMessage(){
+    
+}

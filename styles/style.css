@@ -85,7 +85,7 @@ main{
 .imagem-cnt > div{
     position: absolute;
     z-index: 700;
-    top:55%;
+    top: 60%;
     right: 10%;
 }
 
