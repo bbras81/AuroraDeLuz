@@ -30,9 +30,10 @@ header{
 }
 
 #logo{
+    position: absolute;
     padding: 10px;
-    display: none;
-    width: 157px;   
+    display: inline;
+    width: 120px;   
 }
 .lettering{
     display: block;
