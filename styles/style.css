@@ -23,6 +23,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    
 }
 
 #logo{
@@ -72,8 +73,6 @@ main{
 }
 
 .imagem-sec{
-    position: relative;
-    background-color: var(--cor001);
 }
 
 .imagem{
@@ -83,7 +82,6 @@ main{
 }
 
 .descrição{
-    background-color: var(--cor001);
 }
 
 /*---------- TEXT ----------*/
@@ -105,12 +103,3 @@ footer{
 }
 
 /*--------- BUTTONS----------*/
-
-.imagem-sec > button{
-    position: absolute;
-    width: 100px;
-    height: 50px;
-    right: 125px;
-    bottom: 100px;
-    border-radius: 50%;
-}
