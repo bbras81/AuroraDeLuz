@@ -25,6 +25,7 @@ header{
     top: 0;
     right: 0;
     left: 0;
+    width: 100vw;
     z-index: 999;
     
 }
@@ -94,17 +95,9 @@ main{
 }
 
 .imagem-cnt > img{
-    position: relative;
-    width: 100vw;
+    width: 100%;
     z-index: 500;
 
-}
-
-.imagem-cnt > div{
-    position: absolute;
-    z-index: 700;
-    top: 60%;
-    right: 10%;
 }
 
 /*---------- TEXT ----------*/
@@ -124,28 +117,4 @@ footer{
     background-color: var(--cor002);
     text-align: center;
 }
-
-/*--------- BUTTONS----------*/
-.whatsappbtn > img{
-    margin-left: 10px;
-}
-
-.whatsappbtn{
-    display: inline-flex;
-    background-color: #2CBF36;
-    color: #F2F2F2;
-    border:3px solid #F2F2F2;
-    width: 140px;
-    height: 40px;
-    border-radius: 30px;
-    justify-content: center;
-    align-items: center;
-}
-.whatsappbtn:hover{
-    cursor: pointer;
-}
-
-.imagem-cnt div{
-    margin-left: 260px;
-}
-
+ 
