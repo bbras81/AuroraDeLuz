@@ -64,7 +64,6 @@ header{
 
 #menuDrop{
     display: none;
-    background-color: var(--cor001);
 }
 #menuDrop > ul > li{
     padding-top: 20px;
