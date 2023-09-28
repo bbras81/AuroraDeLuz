@@ -51,9 +51,22 @@ header{
 .lettering > h2{
     font-size:smaller;
     text-align: center;
-
+    
 }
-
+.linha{
+    margin: auto;
+    height: 2px;
+    width: 80%;
+    background-image: linear-gradient(90deg, var(--cor00), white);
+    
+}
+.linha1{
+    margin: auto;
+    height: 2px;
+    width: 80%;
+    background-image: linear-gradient(90deg, white, var(--cor00));
+    
+}
 
 
 #burger{
