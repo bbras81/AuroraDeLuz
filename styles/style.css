@@ -49,8 +49,9 @@ header{
     font-family: 'Albertus Nova';
 }
 .lettering > h2{
-    font-size: small;
+    font-size:smaller;
     text-align: center;
+
 }
 
 
